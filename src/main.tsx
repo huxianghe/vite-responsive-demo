@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import BaseForm from './components/Form';
 import BaseCard from './components/Card';
+import BaseRFS from './components/Rfs';
 
 const router = createHashRouter([
   {
@@ -22,6 +23,10 @@ const router = createHashRouter([
       {
         path: 'card',
         element: <BaseCard />,
+      },
+      {
+        path: 'rfs',
+        element: <BaseRFS />,
       },
     ],
   },
